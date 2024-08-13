@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Site</title>
+    <link rel="stylesheet" href="resources/styles/style.css">
+    <link rel="shortcut icon" href="resources/images/favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="icon">
+            <img src="resources/images/profile.jpg" alt="icon">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="gradient-background">
+        <section id="home" class="home">
+            <div class="home-div">
+                <h1>Sultan Jamal</h1>
+                <h2>I'm a <span id="home-div-span">Developer</span></h2>
+            </div>
+            <div class="home-img">
+                <img src="resources/images/profile.jpg" alt="profile">
+            </div>
+        </section>
+        <section id="about" class="about">
+            <h1>ABOUT ME</h1>
+            <p>I'm a programmer for 3 years and I love to make websties and robots. Feel free to reach me out <a href="#contact">here</a></p>
+        </section>
+        <section class="services" id="services">
+            <h1>SERVICES</h1>
+            <div class="container-card">
+            <div class="card">
+                <img src="" alt="" />
+                <h3>Web Design</h3>
+                <p>I'll design beautiful websites for you according to your needs.</p>
+            </div>
+            <div class="card">
+                <img src="" alt="" />
+                <h3>Full Stack</h3>
+                <p>From Design to Deployment. I will make a comprehensive website with high security ready for deployment</p>
+            </div>
+            <div class="card">
+                <img src="" alt="" />
+                <h3>ROS Programming</h3>
+                <p>Robotics Programming</p>
+            </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <h1>PORTFOLIO</h1>
+            <div class="container-card">
+            <div class="card">
+                <img src="" alt="">
+                <h3></h3>
+            </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <h1>skills</h1>
+            <div class="skills-container">
+            <div class="skill-img">
+                <img src="" alt="html">
+            </div>
+            <div class="skill-img">
+                <img src="" alt="CSS">
+            </div>
+            <div class="skill-img">
+                <img src="" alt="JavaScript">
+            </div>
+            <div class="skill-img">
+                <img src="" alt="DOM">
+            </div>
+            <div class="skill-img">
+                <img src="" alt="BOOTSTRAP">
+            </div>
+            <div class="skill-img">
+                <img src="" alt="NODE.JS">
+            </div>
+            <div class="skill-img">
+                <img src="" alt="EXPRESS.JS">
+            </div>
+            <div class="skill-img">
+                <img src="" alt="SQL">
+            </div>
+            <div class="skill-img">
+                <img src="" alt="PostgreSQL">
+            </div>
+            <div class="skill-img">
+                <img src="" alt="AUTHENTICATION">
+            </div>
+            <div class="skill-img">
+                <img src="" alt="jQUERY">
+            </div>
+            <div class="skill-img">
+                <img src="" alt="API">
+            </div>
+            <div class="skill-img">
+                <img src="" alt="UNIX">
+            </div>
+            <div class="skill-img">
+                <img src="" alt="EJS">
+            </div>
+            <div class="skill-img">
+                <img src="" alt="Python">
+            </div>
+            <div class="skill-img">
+                <img src="" alt="C">
+            </div>
+            <div class="skill-img">
+                <img src="" alt="C++">
+            </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact-div">
+            <h1>Get In Touch</h1>
+            <p>If you have a project in mind, shoot me a message and I will get back to you shortly. I look forward to working with you.</p>
+            <form action="/add" method="post">
+                <label>Name *</label>
+                <div>
+                    <input type="text" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                <div>
+                <label>Email *</label>
+                <br>
+                <input type="text" placeholder="Email" required>
+                </div>
+                <div>
+                <label for="">Message</label><br>
+                <textarea name="message" id="contact-message"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            </div>
+            <div class="contact-img">
+                <img src="resources/images/profile.jpg" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>insta</div>
+        <div>FB</div>
+        <div>github</div>
+        <div>LinkedIn</div>
+        <div>
+            Copyrights <span id="year">2024</span>
+        </div>
+    </footer>
+
+    <script src="src/index.js"></script>
+</body>
+</html>
